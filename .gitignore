@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data artifacts
+data/raw/
+data/*.csv
+data/*.zip
+
+# Results that can be regenerated
+results/example_outputs.txt
+results/comparison_table.csv
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Kaggle credentials
+kaggle.json
+
+# Archives
+*.tar
+*.gz
+*.rar
+*.7z
